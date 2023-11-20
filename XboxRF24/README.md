@@ -13,6 +13,8 @@ The Receiving Arduino then needs to understand the array yet again, and can then
 The codes with everything combined, a working Processing code, a working transmitting code, and a working receiving code
 ### ProcessingArraySending - Processing (Serial Transmitting)
 This processing code will send an array via serial to Arduino
+### ArduinoArraySending - Arduino (Serial Receiving, RF24 Transmitting)
+This code takes the array processing sent and converts it before sending it via RF
 ### BrushedMotorDriver - Arduino (RF24 Receiving)
 This code shows how to use a motor driver for brushed motors and how they can be controlled remotely. This code was not properly tested as I did not have access to brushed motors or their drivers
 ### ProjectFinal - Arduino (RF24 Receiving)
