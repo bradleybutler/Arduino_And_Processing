@@ -9,7 +9,6 @@ The Arduino that receives the serial input will then transmit that input via RF2
 
 The Receiving Arduino then needs to understand the array yet again, and can then use those values to control your object as wanted
 ## Codes in this Repository include
-## Fully Formed -
 The codes with everything combined, a working Processing code, a working transmitting code, and a working receiving code
 ### ProcessingArraySending - Processing (Serial Transmitting)
 This processing code will send an array via serial to Arduino. You will need to create your own controller configuration and save it
@@ -26,4 +25,12 @@ This code shows how to use brushless motor drivers and has the ability to contro
 
 ## Basics - 
 Part by part deconstruction on how to do it
-### 
+### Processing Basics
+Contains information on how to use Processing, from making GCP config files to sending via serial to Arduino
+### Arduino Serial Receiving
+How to receive input from Processing
+### Arduino RF24 Transmitting
+How to transmit this data via RF24
+### Arduino RF24 Receiving
+How to receive this data via RF24, and subsequently use it
+
