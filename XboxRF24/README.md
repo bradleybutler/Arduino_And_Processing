@@ -9,7 +9,7 @@ The Arduino that receives the serial input will then transmit that input via RF2
 
 The Receiving Arduino then needs to understand the array yet again, and can then use those values to control your object as wanted
 ## Codes in this Repository include
-### Fully Formed -
+## Fully Formed -
 The codes with everything combined, a working Processing code, a working transmitting code, and a working receiving code
 ### ProcessingArraySending - Processing (Serial Transmitting)
 This processing code will send an array via serial to Arduino. You will need to create your own controller configuration and save it
@@ -24,6 +24,6 @@ This code is the final for my project. This code is quite simple as speed contro
 ### BrushlessVariableSpeed - Arduino (RF24 Receiving)
 This code shows how to use brushless motor drivers and has the ability to control motor power steering as function of joystick position
 
-### Basis - 
+## Basis - 
 The codes for basics
 ### 
