@@ -1,5 +1,6 @@
 # Arduino Array Sending
 ### This code takes an array from Processing and converts it before sending it to the receiving Arduino
+All that needs to be changed from code to code is the size of the array and the pins for the RF24 radio
 ## Parts of code
 ### Heading
 Basic info regarding purpose of code, name, and dates
