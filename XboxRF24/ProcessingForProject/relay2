@@ -1,0 +1,11 @@
+To control the boat
+MotorForward	is boat going forward or stopped	3	SLIDER	Y Axis	0	1.0	0.0
+MotorDirection	going left or right	3	SLIDER	X Axis	0	1.0	0.0
+Reverse	are we reversing	1	BUTTON	Button 4	0	0.0	0.0
+Bilge	bilgepump	1	BUTTON	Button 5	0	0.0	0.0
+A	A	1	BUTTON	Button 0	0	0.0	0.0
+B	B	1	BUTTON	Button 1	0	0.0	0.0
+X	X	1	BUTTON	Button 2	0	0.0	0.0
+Y	Y	1	BUTTON	Button 3	0	0.0	0.0
+CannonsEach	Is one cannon on or is the other	3	SLIDER	X Rotation	0	1.0	0.0
+CannonsBoth	Are both cannons on or neither	3	SLIDER	Y Rotation	0	1.0	0.0
