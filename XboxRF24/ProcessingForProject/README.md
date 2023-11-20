@@ -1,5 +1,9 @@
 # Processing For Project
 This code takes controller inputs and converts them into an array for use in our battle boat
+
+Processing_relays is the code
+
+relay2 is the config used
 ## Parts
 ### Heading
 Contains info on purpose, name, and dates
