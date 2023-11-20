@@ -26,9 +26,9 @@ Read array
 
 If reverse isn't on
 
-    Set speed of motors as states
+  Set speed of motors as states
 
 If reverse is on
 
-    Set motors to reverse
+  Set motors to reverse
 
