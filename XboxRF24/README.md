@@ -24,6 +24,6 @@ This code is the final for my project. This code is quite simple as speed contro
 ### BrushlessVariableSpeed - Arduino (RF24 Receiving)
 This code shows how to use brushless motor drivers and has the ability to control motor power steering as function of joystick position
 
-## Basis - 
-The codes for basics
+## Basics - 
+Part by part deconstruction on how to do it
 ### 
