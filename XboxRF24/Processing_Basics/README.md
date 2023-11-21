@@ -1,4 +1,5 @@
 # Processing Basics
+Going through how to make the config files, upload it, and what each part of the code does
 ## Downloading GCP and G4P
 Following MakeUseOf's tutorial except for the Arduino Firmatta part may be more concise https://www.makeuseof.com/tag/arduino-robot-game-controller/
 
@@ -24,15 +25,17 @@ Go into your computer's documents file > Processing > libraries > GameControlPlu
 Go into documents > Processing > the name of the sketch you just created and paste the data folder
 ## Setting up
 Here import your libraries with sketch > import library > Game control plus
-
-    import net.java.games.input.*;
-    import org.gamecontrolplus.*;
-    import org.gamecontrolplus.gui.*;
-Also import the serial with
-
-    import processing.serial.*;
-    
+'''
+import net.java.games.input.*;
+import org.gamecontrolplus.*;
+import org.gamecontrolplus.gui.*;
+'''
+Also import the serial with 
+'''
+import processing.serial.*;
+'''    
 Define your device with ControlDevice and ControlIO, both named to something you can recall
+
     ControlDevice cont;
     ControlIO control;
 Set values for you controller inputs to relate to, booleans for buttons and bumpers and floats for thumbsticks and triggers
