@@ -24,10 +24,12 @@ Go into your computer's documents file > Processing > libraries > GameControlPlu
 Go into documents > Processing > the name of the sketch you just created and paste the data folder
 ## Setting up
 Here import your libraries with sketch > import library > Game control plus
+
     import net.java.games.input.*;
     import org.gamecontrolplus.*;
     import org.gamecontrolplus.gui.*;
 Also import the serial with
+
     import processing.serial.*;
     
 Define your device with ControlDevice and ControlIO, both named to something you can recall
