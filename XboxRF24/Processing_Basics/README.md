@@ -42,6 +42,16 @@ Make an array if you will be using one, recommended if you have to control multi
 
 Define your serial
 
-Now in setup make your background
+    Serial myPort;
+Now in void setup
+
+Connect to your controller
+
+    control = ControlIO.getInstance(this);
+And define it's config file
+
+    cont = control.getMatchedDevice("yourconfig");
+Connect to the serial port, changing the COMX value to your Arduino's COM
+N
 
 Connect your controller and tell it which config file to do
